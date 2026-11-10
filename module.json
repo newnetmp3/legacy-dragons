@@ -1,0 +1,53 @@
+{
+  "id": "legacy-dragons",
+  "title": "Legacy Dragons",
+  "description": "144 ready-to-use dragons for D&D 5e (2014 rules): 36 dragon types from earlier editions that never got an official 5e stat block (planar, lung, fourth-edition chromatic, metallic and catastrophic dragons, and classic one-offs), each at wyrmling, young, adult and ancient age, with tokens. Unofficial fan conversions.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.370"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.6"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "newnetmp3",
+      "url": "https://github.com/newnetmp3"
+    }
+  ],
+  "packs": [
+    {
+      "name": "legacy-dragons",
+      "label": "Legacy Dragons",
+      "path": "packs/legacy-dragons",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Legacy Dragons",
+      "sorting": "a",
+      "packs": ["legacy-dragons"]
+    }
+  ],
+  "url": "https://github.com/newnetmp3/legacy-dragons",
+  "bugs": "https://github.com/newnetmp3/legacy-dragons/issues",
+  "license": "LICENSE",
+  "manifest": "https://raw.githubusercontent.com/newnetmp3/legacy-dragons/main/module.json",
+  "download": "https://github.com/newnetmp3/legacy-dragons/releases/download/v1.0.0/legacy-dragons.zip"
+}

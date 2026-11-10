@@ -1,0 +1,17 @@
+{
+ "name": "Mercury Dragon",
+ "type": "Actor",
+ "_id": "DiyQox2NBUkTdJka",
+ "folder": "WgMItvyEAjaxp7LJ",
+ "sorting": "a",
+ "sort": 16000,
+ "color": "#c0c6cc",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!DiyQox2NBUkTdJka"
+}

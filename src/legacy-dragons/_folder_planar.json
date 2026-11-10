@@ -1,0 +1,17 @@
+{
+ "name": "Planar Dragons",
+ "type": "Actor",
+ "_id": "2LdONDoR6EUJN7Vh",
+ "folder": null,
+ "sorting": "a",
+ "sort": 0,
+ "color": null,
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!2LdONDoR6EUJN7Vh"
+}

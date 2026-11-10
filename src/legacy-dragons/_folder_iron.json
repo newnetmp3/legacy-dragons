@@ -1,0 +1,17 @@
+{
+ "name": "Iron Dragon",
+ "type": "Actor",
+ "_id": "nJmGGphaeNRxHVYI",
+ "folder": "WgMItvyEAjaxp7LJ",
+ "sorting": "a",
+ "sort": 13000,
+ "color": "#6b6b6b",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!nJmGGphaeNRxHVYI"
+}

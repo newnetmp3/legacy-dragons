@@ -1,0 +1,17 @@
+{
+ "name": "Volcanic Dragon",
+ "type": "Actor",
+ "_id": "sGZvzXhJzclLirVy",
+ "folder": "Lf8xmHzyuPXBoVJF",
+ "sorting": "a",
+ "sort": 34000,
+ "color": "#a12d0f",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!sGZvzXhJzclLirVy"
+}

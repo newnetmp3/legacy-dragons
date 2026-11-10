@@ -1,0 +1,17 @@
+{
+ "name": "Gray Dragon",
+ "type": "Actor",
+ "_id": "uO6O5155twSHzMUe",
+ "folder": "hoYXWYy53FkqgLLH",
+ "sorting": "a",
+ "sort": 11000,
+ "color": "#7d7f7d",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!uO6O5155twSHzMUe"
+}

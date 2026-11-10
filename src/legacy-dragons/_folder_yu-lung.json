@@ -1,0 +1,17 @@
+{
+ "name": "Yu Lung",
+ "type": "Actor",
+ "_id": "GcV0vPMIyLZ1q2p0",
+ "folder": "44UdmJwb2R9nYJiA",
+ "sorting": "a",
+ "sort": 35000,
+ "color": "#e07b39",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!GcV0vPMIyLZ1q2p0"
+}

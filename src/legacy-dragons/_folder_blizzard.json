@@ -1,0 +1,17 @@
+{
+ "name": "Blizzard Dragon",
+ "type": "Actor",
+ "_id": "zFOpe9b2mftFSGOT",
+ "folder": "Lf8xmHzyuPXBoVJF",
+ "sorting": "a",
+ "sort": 2000,
+ "color": "#bfe3f2",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!zFOpe9b2mftFSGOT"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "legacy-dragons-tools",
+  "private": true,
+  "type": "module",
+  "description": "Build tools for the Legacy Dragons module (not part of the module itself).",
+  "dependencies": { "@foundryvtt/foundryvtt-cli": "3.0.5" }
+}

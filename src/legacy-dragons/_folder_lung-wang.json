@@ -1,0 +1,17 @@
+{
+ "name": "Lung Wang",
+ "type": "Actor",
+ "_id": "Zig0kVkop4xC6SEn",
+ "folder": "44UdmJwb2R9nYJiA",
+ "sorting": "a",
+ "sort": 15000,
+ "color": "#1c4e80",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!Zig0kVkop4xC6SEn"
+}

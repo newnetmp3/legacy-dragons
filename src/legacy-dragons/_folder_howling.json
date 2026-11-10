@@ -1,0 +1,17 @@
+{
+ "name": "Howling Dragon",
+ "type": "Actor",
+ "_id": "DkUhycNknrVWPJfS",
+ "folder": "2LdONDoR6EUJN7Vh",
+ "sorting": "a",
+ "sort": 12000,
+ "color": "#6d5f78",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!DkUhycNknrVWPJfS"
+}

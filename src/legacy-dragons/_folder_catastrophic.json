@@ -1,0 +1,17 @@
+{
+ "name": "Catastrophic Dragons",
+ "type": "Actor",
+ "_id": "Lf8xmHzyuPXBoVJF",
+ "folder": null,
+ "sorting": "a",
+ "sort": 400000,
+ "color": null,
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!Lf8xmHzyuPXBoVJF"
+}

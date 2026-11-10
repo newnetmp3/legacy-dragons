@@ -1,0 +1,17 @@
+{
+ "name": "Orium Dragon",
+ "type": "Actor",
+ "_id": "A2bF7HXF38Fcbpkn",
+ "folder": "WgMItvyEAjaxp7LJ",
+ "sorting": "a",
+ "sort": 20000,
+ "color": "#8a9a3a",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!A2bF7HXF38Fcbpkn"
+}

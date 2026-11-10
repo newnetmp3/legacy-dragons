@@ -1,0 +1,17 @@
+{
+ "name": "Battle Dragon",
+ "type": "Actor",
+ "_id": "ZqcsDB3o8Cw6CSYZ",
+ "folder": "2LdONDoR6EUJN7Vh",
+ "sorting": "a",
+ "sort": 1000,
+ "color": "#a8732f",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!ZqcsDB3o8Cw6CSYZ"
+}

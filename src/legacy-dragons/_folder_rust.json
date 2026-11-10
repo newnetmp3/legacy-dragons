@@ -1,0 +1,17 @@
+{
+ "name": "Rust Dragon",
+ "type": "Actor",
+ "_id": "XQauxvkvjCaddxQ6",
+ "folder": "2LdONDoR6EUJN7Vh",
+ "sorting": "a",
+ "sort": 24000,
+ "color": "#a0522d",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!XQauxvkvjCaddxQ6"
+}

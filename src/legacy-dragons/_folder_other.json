@@ -1,0 +1,17 @@
+{
+ "name": "Other Classic Dragons",
+ "type": "Actor",
+ "_id": "lKa0GvwGGsJf5BBb",
+ "folder": null,
+ "sorting": "a",
+ "sort": 500000,
+ "color": null,
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!lKa0GvwGGsJf5BBb"
+}

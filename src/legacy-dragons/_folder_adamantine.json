@@ -1,0 +1,17 @@
+{
+ "name": "Adamantine Dragon",
+ "type": "Actor",
+ "_id": "swQ7OzLB1i4lRCpK",
+ "folder": "WgMItvyEAjaxp7LJ",
+ "sorting": "a",
+ "sort": 0,
+ "color": "#4b5563",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!swQ7OzLB1i4lRCpK"
+}

@@ -1,0 +1,17 @@
+{
+ "name": "Shen Lung",
+ "type": "Actor",
+ "_id": "1kgXpmmahoNWuxB2",
+ "folder": "44UdmJwb2R9nYJiA",
+ "sorting": "a",
+ "sort": 25000,
+ "color": "#6aa5a1",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!1kgXpmmahoNWuxB2"
+}

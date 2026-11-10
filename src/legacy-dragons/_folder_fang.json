@@ -1,0 +1,17 @@
+{
+ "name": "Fang Dragon",
+ "type": "Actor",
+ "_id": "NLxt9PYU56W8cvUY",
+ "folder": "lKa0GvwGGsJf5BBb",
+ "sorting": "a",
+ "sort": 10000,
+ "color": "#5a4a3a",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!NLxt9PYU56W8cvUY"
+}

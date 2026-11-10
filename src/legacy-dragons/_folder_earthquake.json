@@ -1,0 +1,17 @@
+{
+ "name": "Earthquake Dragon",
+ "type": "Actor",
+ "_id": "akqJo5ri7tcCoKLu",
+ "folder": "Lf8xmHzyuPXBoVJF",
+ "sorting": "a",
+ "sort": 8000,
+ "color": "#6b4f2a",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!akqJo5ri7tcCoKLu"
+}

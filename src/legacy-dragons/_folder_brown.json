@@ -1,0 +1,17 @@
+{
+ "name": "Brown Dragon",
+ "type": "Actor",
+ "_id": "jnfhsYCq6ryXXl23",
+ "folder": "hoYXWYy53FkqgLLH",
+ "sorting": "a",
+ "sort": 3000,
+ "color": "#9c6b3c",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!jnfhsYCq6ryXXl23"
+}

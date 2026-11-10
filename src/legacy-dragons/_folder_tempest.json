@@ -1,0 +1,17 @@
+{
+ "name": "Tempest Dragon",
+ "type": "Actor",
+ "_id": "SGDUR2cvZep0B4FS",
+ "folder": "Lf8xmHzyuPXBoVJF",
+ "sorting": "a",
+ "sort": 31000,
+ "color": "#4b6a8a",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!SGDUR2cvZep0B4FS"
+}

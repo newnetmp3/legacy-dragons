@@ -1,0 +1,17 @@
+{
+ "name": "Radiant Dragon",
+ "type": "Actor",
+ "_id": "btkWziDmce9c8cQP",
+ "folder": "2LdONDoR6EUJN7Vh",
+ "sorting": "a",
+ "sort": 23000,
+ "color": "#f2cf5b",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!btkWziDmce9c8cQP"
+}

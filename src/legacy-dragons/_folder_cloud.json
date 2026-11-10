@@ -1,0 +1,17 @@
+{
+ "name": "Cloud Dragon",
+ "type": "Actor",
+ "_id": "D9Vnif7NVAoX887N",
+ "folder": "lKa0GvwGGsJf5BBb",
+ "sorting": "a",
+ "sort": 6000,
+ "color": "#cfd8e3",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!D9Vnif7NVAoX887N"
+}

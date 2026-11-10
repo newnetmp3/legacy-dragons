@@ -1,0 +1,17 @@
+{
+ "name": "Mist Dragon",
+ "type": "Actor",
+ "_id": "JEFcLcncwnP8qc11",
+ "folder": "lKa0GvwGGsJf5BBb",
+ "sorting": "a",
+ "sort": 17000,
+ "color": "#9db7c2",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!JEFcLcncwnP8qc11"
+}

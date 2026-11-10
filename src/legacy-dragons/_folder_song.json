@@ -1,0 +1,17 @@
+{
+ "name": "Song Dragon",
+ "type": "Actor",
+ "_id": "n3ZIp6kTVQdgwKRC",
+ "folder": "lKa0GvwGGsJf5BBb",
+ "sorting": "a",
+ "sort": 26000,
+ "color": "#a8c6e0",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!n3ZIp6kTVQdgwKRC"
+}

@@ -1,0 +1,17 @@
+{
+ "name": "Li Lung",
+ "type": "Actor",
+ "_id": "YHGuMcRKulsrw0mu",
+ "folder": "44UdmJwb2R9nYJiA",
+ "sorting": "a",
+ "sort": 14000,
+ "color": "#8b6b3e",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!YHGuMcRKulsrw0mu"
+}

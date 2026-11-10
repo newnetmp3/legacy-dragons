@@ -1,0 +1,17 @@
+{
+ "name": "Steel Dragon",
+ "type": "Actor",
+ "_id": "WTgyDeNzf6dwyCoX",
+ "folder": "WgMItvyEAjaxp7LJ",
+ "sorting": "a",
+ "sort": 27000,
+ "color": "#8a9aa6",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!WTgyDeNzf6dwyCoX"
+}

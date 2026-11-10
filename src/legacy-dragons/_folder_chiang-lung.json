@@ -1,0 +1,17 @@
+{
+ "name": "Chiang Lung",
+ "type": "Actor",
+ "_id": "zkSkXYUtPcHU9vMP",
+ "folder": "44UdmJwb2R9nYJiA",
+ "sorting": "a",
+ "sort": 5000,
+ "color": "#2f6f9f",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!zkSkXYUtPcHU9vMP"
+}

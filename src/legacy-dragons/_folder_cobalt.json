@@ -1,0 +1,17 @@
+{
+ "name": "Cobalt Dragon",
+ "type": "Actor",
+ "_id": "DENYdoLSS8VN89em",
+ "folder": "WgMItvyEAjaxp7LJ",
+ "sorting": "a",
+ "sort": 7000,
+ "color": "#2b4fa0",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!DENYdoLSS8VN89em"
+}

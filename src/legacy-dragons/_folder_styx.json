@@ -1,0 +1,17 @@
+{
+ "name": "Styx Dragon",
+ "type": "Actor",
+ "_id": "TsTTVNQnqEguGrL8",
+ "folder": "2LdONDoR6EUJN7Vh",
+ "sorting": "a",
+ "sort": 28000,
+ "color": "#3d5229",
+ "flags": {},
+ "description": "",
+ "_stats": {
+  "systemId": "dnd5e",
+  "systemVersion": "6.0.6",
+  "coreVersion": "14.370"
+ },
+ "_key": "!folders!TsTTVNQnqEguGrL8"
+}

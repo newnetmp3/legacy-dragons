@@ -1,0 +1,2819 @@
+{
+ "_id": "D1SiCfe5XwMIH2Vf",
+ "name": "Ancient Tun Mi Lung",
+ "type": "npc",
+ "img": "modules/legacy-dragons/tokens/tun-mi-lung.webp",
+ "system": {
+  "identifier": "ancient-blue-dragon",
+  "abilities": {
+   "str": {
+    "value": 30,
+    "proficient": 0,
+    "bonuses": {
+     "check": "",
+     "save": ""
+    },
+    "max": null
+   },
+   "dex": {
+    "value": 10,
+    "proficient": 1,
+    "bonuses": {
+     "check": "",
+     "save": ""
+    },
+    "max": null
+   },
+   "con": {
+    "value": 27,
+    "proficient": 1,
+    "bonuses": {
+     "check": "",
+     "save": ""
+    },
+    "max": null
+   },
+   "int": {
+    "value": 18,
+    "proficient": 0,
+    "bonuses": {
+     "check": "",
+     "save": ""
+    },
+    "max": null
+   },
+   "wis": {
+    "value": 17,
+    "proficient": 1,
+    "bonuses": {
+     "check": "",
+     "save": ""
+    },
+    "max": null
+   },
+   "cha": {
+    "value": 21,
+    "proficient": 1,
+    "bonuses": {
+     "check": "",
+     "save": ""
+    },
+    "max": null
+   }
+  },
+  "attributes": {
+   "ac": {
+    "flat": 22,
+    "calc": "natural",
+    "formula": ""
+   },
+   "hp": {
+    "value": 481,
+    "max": 481,
+    "temp": null,
+    "tempmax": null,
+    "formula": "26d20 + 208"
+   },
+   "init": {
+    "ability": "",
+    "bonus": "0",
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "movement": {
+    "burrow": 0,
+    "climb": 0,
+    "fly": 80,
+    "swim": 40,
+    "walk": 40,
+    "units": "ft",
+    "hover": false
+   },
+   "attunement": {
+    "max": 3
+   },
+   "senses": {
+    "darkvision": 120,
+    "blindsight": 60,
+    "tremorsense": 0,
+    "truesight": 0,
+    "units": "ft",
+    "special": ""
+   },
+   "spellcasting": "",
+   "exhaustion": 0,
+   "concentration": {
+    "ability": "",
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    },
+    "bonuses": {
+     "save": ""
+    },
+    "limit": 1
+   },
+   "hd": {
+    "spent": 0
+   },
+   "death": {
+    "ability": "",
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    },
+    "success": 0,
+    "failure": 0
+   }
+  },
+  "details": {
+   "biography": {
+    "value": "<p>Tun mi lung are typhoon dragons, wild and cruel, who sink ships and flatten villages for the joy of it. The other lung dragons consider them outlaws and hunt them when they can.</p><p><em>Unofficial 5e conversion of a dragon from an earlier edition of the game, for the Legacy Dragons module.</em></p>",
+    "public": ""
+   },
+   "alignment": "Chaotic Evil",
+   "race": null,
+   "type": {
+    "value": "dragon",
+    "subtype": "",
+    "swarm": "",
+    "custom": ""
+   },
+   "environment": "Coastal, Underwater",
+   "cr": 23,
+   "spellLevel": 0,
+   "ideal": "",
+   "bond": "",
+   "flaw": ""
+  },
+  "traits": {
+   "size": "grg",
+   "di": {
+    "value": [],
+    "bypasses": [],
+    "custom": ""
+   },
+   "dr": {
+    "value": [
+     "lightning",
+     "thunder"
+    ],
+    "bypasses": [],
+    "custom": ""
+   },
+   "dv": {
+    "value": [],
+    "bypasses": [],
+    "custom": ""
+   },
+   "ci": {
+    "value": [],
+    "custom": ""
+   },
+   "languages": {
+    "value": [
+     "common",
+     "draconic",
+     "primordial"
+    ],
+    "custom": ""
+   },
+   "dm": {
+    "amount": {},
+    "bypasses": []
+   }
+  },
+  "currency": {
+   "pp": 0,
+   "gp": 0,
+   "ep": 0,
+   "sp": 0,
+   "cp": 0
+  },
+  "skills": {
+   "acr": {
+    "value": 0,
+    "ability": "dex",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "ani": {
+    "value": 0,
+    "ability": "wis",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "arc": {
+    "value": 0,
+    "ability": "int",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "ath": {
+    "value": 0,
+    "ability": "str",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "dec": {
+    "value": 0,
+    "ability": "cha",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "his": {
+    "value": 0,
+    "ability": "int",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "ins": {
+    "value": 0,
+    "ability": "wis",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "itm": {
+    "value": 0,
+    "ability": "cha",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "inv": {
+    "value": 0,
+    "ability": "int",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "med": {
+    "value": 0,
+    "ability": "wis",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "nat": {
+    "value": 0,
+    "ability": "int",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "prc": {
+    "value": 2,
+    "ability": "wis",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "prf": {
+    "value": 0,
+    "ability": "cha",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "per": {
+    "value": 0,
+    "ability": "cha",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "rel": {
+    "value": 0,
+    "ability": "int",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "slt": {
+    "value": 0,
+    "ability": "dex",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "ste": {
+    "value": 1,
+    "ability": "dex",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   },
+   "sur": {
+    "value": 0,
+    "ability": "wis",
+    "bonuses": {
+     "check": "",
+     "passive": ""
+    },
+    "roll": {
+     "min": null,
+     "max": null,
+     "mode": 0
+    }
+   }
+  },
+  "spells": {
+   "spell1": {
+    "value": 0,
+    "override": null
+   },
+   "spell2": {
+    "value": 0,
+    "override": null
+   },
+   "spell3": {
+    "value": 0,
+    "override": null
+   },
+   "spell4": {
+    "value": 0,
+    "override": null
+   },
+   "spell5": {
+    "value": 0,
+    "override": null
+   },
+   "spell6": {
+    "value": 0,
+    "override": null
+   },
+   "spell7": {
+    "value": 0,
+    "override": null
+   },
+   "spell8": {
+    "value": 0,
+    "override": null
+   },
+   "spell9": {
+    "value": 0,
+    "override": null
+   },
+   "pact": {
+    "value": 0,
+    "override": null
+   }
+  },
+  "bonuses": {
+   "mwak": {
+    "attack": "",
+    "damage": ""
+   },
+   "rwak": {
+    "attack": "",
+    "damage": ""
+   },
+   "msak": {
+    "attack": "",
+    "damage": ""
+   },
+   "rsak": {
+    "attack": "",
+    "damage": ""
+   },
+   "abilities": {
+    "check": "",
+    "save": "",
+    "skill": ""
+   },
+   "spell": {
+    "dc": ""
+   }
+  },
+  "resources": {
+   "legact": {
+    "value": 3,
+    "max": 3
+   },
+   "legres": {
+    "value": 3,
+    "max": 3
+   },
+   "lair": {
+    "value": true,
+    "initiative": 20
+   }
+  },
+  "tools": {},
+  "source": {
+   "custom": "Legacy Dragons",
+   "book": "",
+   "page": "",
+   "license": "",
+   "rules": "2014",
+   "revision": 1
+  }
+ },
+ "prototypeToken": {
+  "name": "Ancient Tun Mi Lung",
+  "displayName": 20,
+  "actorLink": false,
+  "width": 4,
+  "height": 4,
+  "lockRotation": false,
+  "rotation": 0,
+  "disposition": -1,
+  "displayBars": 20,
+  "bar1": {
+   "attribute": "attributes.hp"
+  },
+  "bar2": {
+   "attribute": "resources.legact"
+  },
+  "flags": {},
+  "randomImg": false,
+  "alpha": 1,
+  "light": {
+   "alpha": 1,
+   "angle": 360,
+   "bright": 0,
+   "coloration": 1,
+   "dim": 0,
+   "luminosity": 0.5,
+   "saturation": 0,
+   "contrast": 0,
+   "shadows": 0,
+   "animation": {
+    "speed": 5,
+    "intensity": 5,
+    "type": null,
+    "reverse": false
+   },
+   "darkness": {
+    "min": 0,
+    "max": 1
+   },
+   "attenuation": 0.5,
+   "color": null,
+   "negative": false,
+   "priority": 0
+  },
+  "texture": {
+   "src": "modules/legacy-dragons/tokens/tun-mi-lung.webp",
+   "tint": "#ffffff",
+   "scaleX": 1,
+   "scaleY": 1,
+   "anchorX": 0.5,
+   "anchorY": 0.5,
+   "fit": "contain",
+   "alphaThreshold": 0.75
+  },
+  "sight": {
+   "angle": 360,
+   "enabled": false,
+   "range": 120,
+   "brightness": 0,
+   "visionMode": "basic",
+   "color": null,
+   "attenuation": 0.1,
+   "saturation": 0,
+   "contrast": 0
+  },
+  "detectionModes": {},
+  "appendNumber": false,
+  "prependAdjective": false,
+  "occludable": {
+   "radius": 0
+  },
+  "ring": {
+   "enabled": false,
+   "colors": {
+    "ring": null,
+    "background": null
+   },
+   "effects": 1,
+   "subject": {
+    "scale": 1,
+    "texture": null
+   }
+  },
+  "turnMarker": {
+   "mode": 1,
+   "animation": null,
+   "src": null,
+   "disposition": false
+  },
+  "movementAction": null,
+  "depth": 4
+ },
+ "items": [
+  {
+   "_id": "JQsf64kXZpcgJrKR",
+   "name": "Multiattack",
+   "type": "feat",
+   "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+   "system": {
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} can use its [[/item .0S3rsyRoN4MNFc1J]]{Frightful Presence}. It then makes three attacks: one with its [[/item .14LzvTqPnnDEMbRq]]{bite} and two with its [[/item .NJwogseVawzbhv6I]]{claws}.</p>",
+     "chat": ""
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "activities": {
+     "HVNWD9m0wuC1yjeV": {
+      "type": "utility",
+      "activation": {
+       "type": "action",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "units": "self",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "roll": {
+       "formula": "",
+       "name": "",
+       "prompt": false,
+       "visible": false
+      },
+      "sort": 100000,
+      "img": null,
+      "flags": {},
+      "visibility": {
+       "level": {},
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false
+      },
+      "_id": "HVNWD9m0wuC1yjeV"
+     }
+    },
+    "enchant": {},
+    "prerequisites": {
+     "level": null
+    },
+    "identifier": "multiattack"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE",
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568212020,
+    "modifiedTime": 1783371688168,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.JQsf64kXZpcgJrKR"
+  },
+  {
+   "_id": "14LzvTqPnnDEMbRq",
+   "name": "Bite",
+   "type": "weapon",
+   "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+   "system": {
+    "description": {
+     "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+     "chat": "<p>The [[lookup @name]]{monster} attacks with its [[lookup @item.name]].</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+     "value": 0,
+     "units": "lb"
+    },
+    "price": {
+     "value": 0,
+     "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": true,
+    "rarity": "",
+    "identified": true,
+    "cover": null,
+    "range": {
+     "value": null,
+     "long": null,
+     "units": "ft",
+     "reach": 15
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "damage": {
+     "versatile": {
+      "number": null,
+      "denomination": null,
+      "bonus": "",
+      "types": [],
+      "custom": {
+       "enabled": false,
+       "formula": ""
+      },
+      "scaling": {
+       "mode": "",
+       "number": null,
+       "formula": ""
+      }
+     },
+     "base": {
+      "number": 2,
+      "denomination": 10,
+      "bonus": "",
+      "types": [
+       "piercing"
+      ],
+      "custom": {
+       "enabled": false,
+       "formula": ""
+      },
+      "scaling": {
+       "mode": "",
+       "number": null,
+       "formula": ""
+      }
+     }
+    },
+    "armor": {
+     "value": 10
+    },
+    "hp": {
+     "value": 0,
+     "max": 0,
+     "dt": null,
+     "conditions": ""
+    },
+    "properties": [],
+    "proficient": null,
+    "unidentified": {
+     "description": ""
+    },
+    "type": {
+     "value": "natural",
+     "baseItem": ""
+    },
+    "container": null,
+    "crewed": false,
+    "activities": {
+     "DjnWFrkNmw73kvIF": {
+      "type": "attack",
+      "activation": {
+       "type": "action",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "value": "15",
+       "units": "ft",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "attack": {
+       "ability": "",
+       "bonus": "",
+       "critical": {
+        "threshold": null
+       },
+       "flat": false,
+       "type": {
+        "value": "",
+        "classification": ""
+       }
+      },
+      "damage": {
+       "critical": {
+        "bonus": ""
+       },
+       "includeBase": true,
+       "parts": []
+      },
+      "sort": 300000,
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "name": "",
+      "_id": "DjnWFrkNmw73kvIF"
+     }
+    },
+    "attuned": false,
+    "ammunition": {},
+    "magicalBonus": null,
+    "identifier": "bite",
+    "mastery": ""
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y",
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568125673,
+    "modifiedTime": 1781568143965,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.14LzvTqPnnDEMbRq"
+  },
+  {
+   "_id": "NJwogseVawzbhv6I",
+   "name": "Claw",
+   "type": "weapon",
+   "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
+   "system": {
+    "description": {
+     "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+     "chat": "<p>The [[lookup @name]]{monster} attacks with its [[lookup @item.name]].</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+     "value": 0,
+     "units": "lb"
+    },
+    "price": {
+     "value": 0,
+     "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": true,
+    "rarity": "",
+    "identified": true,
+    "cover": null,
+    "range": {
+     "value": null,
+     "long": null,
+     "units": "ft",
+     "reach": null
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "damage": {
+     "versatile": {
+      "number": null,
+      "denomination": null,
+      "bonus": "",
+      "types": [],
+      "custom": {
+       "enabled": false,
+       "formula": ""
+      },
+      "scaling": {
+       "mode": "",
+       "number": null,
+       "formula": ""
+      }
+     },
+     "base": {
+      "number": 2,
+      "denomination": 6,
+      "bonus": "",
+      "types": [
+       "slashing"
+      ],
+      "custom": {
+       "enabled": false,
+       "formula": ""
+      },
+      "scaling": {
+       "mode": "",
+       "number": null,
+       "formula": ""
+      }
+     }
+    },
+    "armor": {
+     "value": 10
+    },
+    "hp": {
+     "value": 0,
+     "max": 0,
+     "dt": null,
+     "conditions": ""
+    },
+    "properties": [
+     "rch"
+    ],
+    "proficient": null,
+    "unidentified": {
+     "description": ""
+    },
+    "type": {
+     "value": "natural",
+     "baseItem": ""
+    },
+    "container": null,
+    "crewed": false,
+    "activities": {
+     "IdNTj9stN7i1mRcW": {
+      "type": "attack",
+      "activation": {
+       "type": "action",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "value": "10",
+       "units": "ft",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "attack": {
+       "ability": "",
+       "bonus": "",
+       "critical": {
+        "threshold": null
+       },
+       "flat": false,
+       "type": {
+        "value": "",
+        "classification": ""
+       }
+      },
+      "damage": {
+       "critical": {
+        "bonus": ""
+       },
+       "includeBase": true,
+       "parts": []
+      },
+      "sort": 100000,
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "_id": "IdNTj9stN7i1mRcW",
+      "name": ""
+     }
+    },
+    "attuned": false,
+    "ammunition": {},
+    "magicalBonus": null,
+    "identifier": "claw",
+    "mastery": ""
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 300000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568104843,
+    "modifiedTime": 1781568118210,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.NJwogseVawzbhv6I"
+  },
+  {
+   "_id": "ECcLQLCwZpwEJHpz",
+   "name": "Legendary Resistance",
+   "type": "feat",
+   "img": "icons/equipment/shield/targe-steel-blue.webp",
+   "system": {
+    "description": {
+     "value": "<p>If the [[lookup @name lowercase]]{monster} fails a saving throw, it can choose to succeed instead.</p>",
+     "chat": ""
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [
+     "trait"
+    ],
+    "activities": {
+     "4Lhlp6KCjZH27kAb": {
+      "_id": "4Lhlp6KCjZH27kAb",
+      "type": "utility",
+      "activation": {
+       "type": "special",
+       "value": null,
+       "condition": "When the [[lookup @name lowercase]]{monster} fails a saving throw.",
+       "override": false
+      },
+      "consumption": {
+       "targets": [
+        {
+         "type": "attribute",
+         "value": "1",
+         "target": "resources.legres.value",
+         "scaling": {}
+        }
+       ],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "units": "self",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "self",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "roll": {
+       "formula": "",
+       "name": "",
+       "prompt": false,
+       "visible": false
+      },
+      "sort": 0,
+      "name": "Persevere",
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "identifier": "",
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false
+      }
+     }
+    },
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "legendary-resistance",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 500000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.6gjpG1ezpMNyJDGc",
+    "duplicateSource": "Item.MwYDaI9opLjPGaPA",
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568029688,
+    "modifiedTime": 1781568029688,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.ECcLQLCwZpwEJHpz"
+  },
+  {
+   "_id": "JSL8WlmW1Ms9Mdhv",
+   "name": "Legendary Actions",
+   "type": "feat",
+   "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+   "system": {
+    "description": {
+     "value": "<p>[[lookup @resources.legact.label]]</p>",
+     "chat": "<p>The [[lookup @name]]{monster} can take [[lookup @resources.legact.max]] legendary actions.</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "spent": 0,
+     "recovery": []
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [
+     "trait"
+    ],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "legendary-actions",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.tWGObm0RZMwSrQLU",
+    "duplicateSource": "Item.iG1TPGZxSyxA5B9l",
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568030615,
+    "modifiedTime": 1781897420620,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.JSL8WlmW1Ms9Mdhv"
+  },
+  {
+   "_id": "5Fijao9xhxuTZQIV",
+   "name": "Tail",
+   "type": "weapon",
+   "img": "icons/creatures/abilities/tail-swipe-green.webp",
+   "system": {
+    "description": {
+     "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+     "chat": "<p>The [[lookup @name]]{monster} attacks with its [[lookup @item.name]].</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "quantity": 1,
+    "weight": {
+     "value": 0,
+     "units": "lb"
+    },
+    "price": {
+     "value": 0,
+     "denomination": "gp"
+    },
+    "attunement": "",
+    "rarity": "",
+    "identified": true,
+    "cover": null,
+    "range": {
+     "value": null,
+     "long": null,
+     "units": "ft",
+     "reach": 20
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "damage": {
+     "versatile": {
+      "number": null,
+      "denomination": null,
+      "bonus": "",
+      "types": [],
+      "custom": {
+       "enabled": false,
+       "formula": ""
+      },
+      "scaling": {
+       "mode": "",
+       "number": null,
+       "formula": ""
+      }
+     },
+     "base": {
+      "number": 2,
+      "denomination": 8,
+      "bonus": "",
+      "types": [
+       "bludgeoning"
+      ],
+      "custom": {
+       "enabled": false,
+       "formula": ""
+      },
+      "scaling": {
+       "mode": "",
+       "number": null,
+       "formula": ""
+      }
+     }
+    },
+    "armor": {
+     "value": 10
+    },
+    "hp": {
+     "value": 0,
+     "max": 0,
+     "dt": null,
+     "conditions": ""
+    },
+    "properties": [],
+    "proficient": null,
+    "unidentified": {
+     "description": ""
+    },
+    "type": {
+     "value": "natural",
+     "baseItem": ""
+    },
+    "container": null,
+    "activities": {
+     "FCLDhCE5PRdZv8Au": {
+      "type": "attack",
+      "activation": {
+       "type": "action",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "value": "15",
+       "units": "ft",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "1",
+        "type": "",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "attack": {
+       "ability": "",
+       "bonus": "",
+       "critical": {
+        "threshold": null
+       },
+       "flat": false,
+       "type": {
+        "value": "",
+        "classification": ""
+       }
+      },
+      "damage": {
+       "critical": {
+        "bonus": ""
+       },
+       "includeBase": true,
+       "parts": []
+      },
+      "sort": 100000,
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "_id": "FCLDhCE5PRdZv8Au",
+      "name": ""
+     }
+    },
+    "ammunition": {},
+    "identifier": "tail",
+    "mastery": "",
+    "crew": {
+     "value": []
+    },
+    "attuned": false,
+    "equipped": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 500000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.t9FrDQLVCU8x4obw",
+    "duplicateSource": "Item.bz6wDllAaYd7bwWv",
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568055149,
+    "modifiedTime": 1781568061134,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.5Fijao9xhxuTZQIV"
+  },
+  {
+   "_id": "4sGgD0QcA6TAbrZu",
+   "name": "Detect",
+   "type": "feat",
+   "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+   "system": {
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} makes a Wisdom (Perception) check.</p>",
+     "chat": "<p>The [[lookup @name]]{monster} watches its surrounding...</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "activities": {
+     "qjaiFHtMYYijgtgw": {
+      "type": "check",
+      "name": "Look Around",
+      "_id": "qjaiFHtMYYijgtgw",
+      "img": "",
+      "sort": 100000,
+      "activation": {
+       "type": "legendary",
+       "override": false,
+       "value": 1,
+       "condition": ""
+      },
+      "consumption": {
+       "scaling": {
+        "allowed": false
+       },
+       "spellSlot": true,
+       "targets": []
+      },
+      "description": {
+       "value": "",
+       "chatFlavor": ""
+      },
+      "duration": {
+       "units": "inst",
+       "concentration": false,
+       "override": false
+      },
+      "effects": [],
+      "flags": {},
+      "range": {
+       "units": "self",
+       "override": false,
+       "special": ""
+      },
+      "target": {
+       "template": {
+        "contiguous": false,
+        "stationary": false,
+        "units": "ft",
+        "type": ""
+       },
+       "affects": {
+        "choice": false,
+        "type": "self",
+        "special": ""
+       },
+       "override": false,
+       "prompt": true
+      },
+      "uses": {
+       "spent": 0,
+       "recovery": [],
+       "max": ""
+      },
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "check": {
+       "associated": [
+        "prc"
+       ],
+       "dc": {
+        "calculation": "",
+        "formula": ""
+       },
+       "visible": true,
+       "ability": "",
+       "bonus": ""
+      }
+     }
+    },
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "detect",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 100000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.RnqMV5Ur5n9S3wIt",
+    "duplicateSource": "Item.oTLqdQ8KvIfo9Fbc",
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568158091,
+    "modifiedTime": 1781568158091,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.4sGgD0QcA6TAbrZu"
+  },
+  {
+   "name": "Tail Attack",
+   "type": "feat",
+   "_id": "PThIbJMDFi9m1p2D",
+   "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
+   "system": {
+    "activities": {
+     "HOAb1H3jP4enWYOT": {
+      "type": "utility",
+      "activation": {
+       "type": "legendary",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "units": "self",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "self",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "roll": {
+       "formula": "",
+       "name": "",
+       "prompt": false,
+       "visible": false
+      },
+      "sort": 0,
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "_id": "HOAb1H3jP4enWYOT",
+      "name": "Swing Tail"
+     }
+    },
+    "uses": {
+     "spent": 0,
+     "recovery": [],
+     "max": ""
+    },
+    "advancement": {},
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} makes a [[/item .5Fijao9xhxuTZQIV]]{tail} attack.</p>",
+     "chat": "<p>The [[lookup @name]]{monster} slams its long tail against its foe!</p>"
+    },
+    "identifier": "tail-attack",
+    "source": {
+     "revision": 1,
+     "rules": "2014"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+     "items": [],
+     "repeatable": false,
+     "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 250000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568165507,
+    "modifiedTime": 1783371694639,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.iXsGJD1VHeJYYSev",
+    "duplicateSource": "Item.MNSBoigqkD6fGpA2",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.PThIbJMDFi9m1p2D"
+  },
+  {
+   "name": "Coil Sweep",
+   "type": "feat",
+   "_id": "dyCnMVF1gdN2GHhu",
+   "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
+   "system": {
+    "activities": {
+     "vtzeqhqamtz6LZ9W": {
+      "type": "save",
+      "activation": {
+       "type": "legendary",
+       "value": 2,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "value": "15",
+       "units": "ft",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "any",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "damage": {
+       "onSave": "half",
+       "parts": [
+        {
+         "custom": {
+          "enabled": false,
+          "formula": ""
+         },
+         "number": 2,
+         "denomination": 6,
+         "bonus": "@mod",
+         "types": [
+          "bludgeoning"
+         ],
+         "scaling": {
+          "number": 1
+         }
+        }
+       ]
+      },
+      "save": {
+       "ability": [
+        "dex"
+       ],
+       "dc": {
+        "calculation": "str",
+        "formula": "18"
+       },
+       "visible": true,
+       "bonus": ""
+      },
+      "sort": 0,
+      "name": "Sweep",
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "_id": "vtzeqhqamtz6LZ9W"
+     }
+    },
+    "uses": {
+     "spent": 0,
+     "recovery": [],
+     "max": ""
+    },
+    "advancement": {},
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} sweeps its long, serpentine body. Each creature within [[lookup @labels.description.range activity=vtzeqhqamtz6LZ9W]] of the [[lookup @name lowercase]]{monster} must succeed on a [[/save]] saving throw or take [[/damage average]] damage and be knocked &amp;Reference[prone]. The [[lookup @name lowercase]]{monster} can then fly up to half its flying speed.</p>",
+     "chat": "<p>The [[lookup @name]]{monster} beats its wings!</p>"
+    },
+    "identifier": "coil-sweep",
+    "source": {
+     "revision": 1,
+     "rules": "2014"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+     "items": [],
+     "repeatable": false,
+     "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 400000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568167474,
+    "modifiedTime": 1781568175074,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.iUiQzMwuCHfvZMPB",
+    "duplicateSource": "Item.FGCzDDxM3wgj2EUY",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.dyCnMVF1gdN2GHhu"
+  },
+  {
+   "_id": "0S3rsyRoN4MNFc1J",
+   "name": "Frightful Presence",
+   "type": "feat",
+   "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+   "system": {
+    "description": {
+     "value": "<p>Each creature of the [[lookup @name lowercase]]{monster}'s choice that is within [[lookup @labels.description.range activity=JQuMgIUPIJcKHdoC]] of the dragon and aware of it must succeed on a [[/save]] saving throw or become &amp;Reference[frightened] for [[lookup @labels.duration activity=JQuMgIUPIJcKHdoC]].</p><p>A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [[lookup @name lowercase]]{monster}'s [[lookup @item.name]] for the next 24 hours.</p>",
+     "chat": "<p>Each creature of the [[lookup @name]]{monster}'s choice that is within [[lookup @labels.description.range activity=JQuMgIUPIJcKHdoC]] of the [[lookup @name]]{monster} and aware of it must succeed on a Wisdom saving throw. A creature can repeat the saving throw at the end of each of its turns.</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "activities": {
+     "JQuMgIUPIJcKHdoC": {
+      "type": "save",
+      "activation": {
+       "type": "action",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "1",
+       "units": "minute",
+       "special": "",
+       "override": false
+      },
+      "effects": [
+       {
+        "_id": "TKDuX4zU2gr6Q3iO",
+        "onSave": false,
+        "level": {
+         "min": null,
+         "max": null
+        }
+       }
+      ],
+      "range": {
+       "value": "120",
+       "units": "ft",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "any",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "damage": {
+       "onSave": "none",
+       "parts": []
+      },
+      "save": {
+       "ability": [
+        "wis"
+       ],
+       "dc": {
+        "calculation": "cha",
+        "formula": "16"
+       },
+       "visible": true,
+       "bonus": ""
+      },
+      "sort": 100000,
+      "name": "Fear Save",
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "_id": "JQuMgIUPIJcKHdoC"
+     }
+    },
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "frightful-presence",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [
+    {
+     "name": "Frightful Presence",
+     "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+     "origin": null,
+     "transfer": false,
+     "_id": "TKDuX4zU2gr6Q3iO",
+     "type": "base",
+     "system": {
+      "changes": []
+     },
+     "disabled": false,
+     "start": null,
+     "duration": {
+      "value": 1,
+      "units": "minutes",
+      "expiry": "turnStart",
+      "expired": false
+     },
+     "description": "<p>You are &amp;reference[frightened apply=false] for 1 minute.</p><p>You can repeat the saving throw at the end of each of your turns, ending the effect on yourself on a success. If your saving throw is successful or the effect ends for you, you are immune to the dragon's Frightful Presence for the next 24 hours.</p>",
+     "tint": "#ffffff",
+     "statuses": [
+      "frightened"
+     ],
+     "showIcon": 1,
+     "folder": null,
+     "sort": 0,
+     "flags": {
+      "dnd5e": {
+       "riders": {
+        "statuses": []
+       }
+      }
+     },
+     "_stats": {
+      "coreVersion": "14.361",
+      "systemId": "dnd5e",
+      "systemVersion": "6.0.0",
+      "createdTime": 1781630411348,
+      "modifiedTime": 1781630411348,
+      "lastModifiedBy": "dnd5ebuilder0000",
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     },
+     "_key": "!actors.items.effects!D1SiCfe5XwMIH2Vf.0S3rsyRoN4MNFc1J.TKDuX4zU2gr6Q3iO"
+    }
+   ],
+   "folder": null,
+   "sort": 300000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.M4eX4Mu5IHCr3TMf.Item.A3azHlbNcHLRgogu",
+    "duplicateSource": "Item.MsuiWclOG7d6FE0U",
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781630411348,
+    "modifiedTime": 1781632038857,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.0S3rsyRoN4MNFc1J"
+  },
+  {
+   "_id": "1Yr7uXjRdTSs1sMS",
+   "name": "Typhoon Breath",
+   "type": "feat",
+   "img": "icons/magic/lightning/bolt-beam-strike-blue.webp",
+   "system": {
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} exhales a howling typhoon wind in a [[lookup @labels.description.template activity=3MzM2UqvTg9PtO5h]]. Each creature in that area must make a [[/save activity=3MzM2UqvTg9PtO5h]] saving throw, taking [[/damage average activity=3MzM2UqvTg9PtO5h]] damage on a failed save, or half as much damage on a successful one. A creature that fails the save is also pushed 30 feet away.</p>",
+     "chat": ""
+    },
+    "source": {
+     "custom": "Legacy Dragons",
+     "book": "",
+     "page": "",
+     "license": "",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "1",
+     "recovery": [
+      {
+       "period": "recharge",
+       "formula": "5",
+       "type": "recoverAll"
+      }
+     ],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "activities": {
+     "3MzM2UqvTg9PtO5h": {
+      "type": "save",
+      "activation": {
+       "type": "action",
+       "value": 1,
+       "condition": "",
+       "override": false
+      },
+      "consumption": {
+       "targets": [
+        {
+         "type": "itemUses",
+         "value": "1",
+         "target": "",
+         "scaling": {}
+        }
+       ],
+       "scaling": {
+        "allowed": false,
+        "max": ""
+       },
+       "spellSlot": true
+      },
+      "description": {
+       "chatFlavor": "",
+       "value": ""
+      },
+      "duration": {
+       "concentration": false,
+       "value": "",
+       "units": "inst",
+       "special": "",
+       "override": false
+      },
+      "effects": [],
+      "range": {
+       "units": "self",
+       "special": "",
+       "override": false
+      },
+      "target": {
+       "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "cone",
+        "size": "90",
+        "width": "",
+        "height": "",
+        "units": "ft",
+        "stationary": false
+       },
+       "affects": {
+        "count": "",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+       },
+       "prompt": true,
+       "override": false
+      },
+      "uses": {
+       "spent": 0,
+       "max": "",
+       "recovery": []
+      },
+      "damage": {
+       "onSave": "half",
+       "parts": [
+        {
+         "custom": {
+          "enabled": false,
+          "formula": ""
+         },
+         "number": 16,
+         "denomination": 10,
+         "bonus": "",
+         "types": [
+          "bludgeoning"
+         ],
+         "scaling": {
+          "number": 1
+         }
+        }
+       ]
+      },
+      "save": {
+       "ability": [
+        "str"
+       ],
+       "dc": {
+        "calculation": "con",
+        "formula": "12"
+       },
+       "visible": true,
+       "bonus": ""
+      },
+      "sort": 100000,
+      "img": "",
+      "flags": {},
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": false,
+       "identifier": ""
+      },
+      "_id": "3MzM2UqvTg9PtO5h",
+      "name": "Typhoon Breath"
+     }
+    },
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "typhoon-breath",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 500000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781568066928,
+    "modifiedTime": 1781568087902,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.1Yr7uXjRdTSs1sMS"
+  },
+  {
+   "_id": "AvCtKXZjG94LdCKf",
+   "name": "Cloud Rider",
+   "type": "feat",
+   "img": "icons/creatures/amphibians/treefrog-underneath-teal.webp",
+   "system": {
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} flies without wings, riding the air itself. It can't be knocked prone while flying, and its flight isn't affected by magic that would ground a winged creature.</p>",
+     "chat": ""
+    },
+    "source": {
+     "custom": "Legacy Dragons",
+     "book": "",
+     "page": "",
+     "license": "",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [
+     "trait"
+    ],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "cloud-rider",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 25000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781605846981,
+    "modifiedTime": 1781605859006,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.AvCtKXZjG94LdCKf"
+  },
+  {
+   "_id": "fFFb1swYisNnlZur",
+   "name": "Amphibious",
+   "type": "feat",
+   "img": "icons/creatures/amphibians/treefrog-underneath-teal.webp",
+   "system": {
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} can breathe air and water.</p>",
+     "chat": ""
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "spent": 0,
+     "recovery": []
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [
+     "trait"
+    ],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "amphibious",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 25000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsters.Actor.8RgUhb31VvjUNZU1.Item.ciz8wAZjqxPnu5Pe",
+    "duplicateSource": "Item.pV30uzlB7Apma9GE",
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781605846981,
+    "modifiedTime": 1781605859006,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.fFFb1swYisNnlZur"
+  },
+  {
+   "_id": "ZblZgkUF9FZ3Li1E",
+   "name": "Change Shape",
+   "type": "feat",
+   "img": "icons/equipment/head/mask-carved-bird-grey-pink.webp",
+   "system": {
+    "description": {
+     "value": "<p>The [[lookup @name lowercase]]{monster} magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the [[lookup @name lowercase]]{monster}'s choice).</p><p>In a new form, the [[lookup @name lowercase]]{monster} retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.</p>",
+     "chat": "<p>The [[lookup @name]]{monster} changes its form into a humanoid or beast!</p>"
+    },
+    "source": {
+     "custom": "",
+     "book": "",
+     "page": "",
+     "license": "CC-BY-4.0",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [
+     "mgc"
+    ],
+    "activities": {
+     "eOhafPYJ6M2E32Vu": {
+      "type": "transform",
+      "name": "Change Shape into Humanoid or Beast",
+      "_id": "eOhafPYJ6M2E32Vu",
+      "img": "",
+      "sort": 100000,
+      "activation": {
+       "type": "action",
+       "override": false,
+       "condition": ""
+      },
+      "consumption": {
+       "scaling": {
+        "allowed": false
+       },
+       "spellSlot": true,
+       "targets": []
+      },
+      "description": {
+       "value": "",
+       "chatFlavor": ""
+      },
+      "duration": {
+       "units": "inst",
+       "concentration": false,
+       "override": false
+      },
+      "effects": [],
+      "flags": {},
+      "range": {
+       "units": "self",
+       "override": false,
+       "special": ""
+      },
+      "target": {
+       "template": {
+        "contiguous": false,
+        "stationary": false,
+        "units": "ft",
+        "type": ""
+       },
+       "affects": {
+        "choice": false,
+        "type": ""
+       },
+       "override": false,
+       "prompt": false
+      },
+      "uses": {
+       "spent": 0,
+       "recovery": [],
+       "max": ""
+      },
+      "visibility": {
+       "level": {
+        "min": null,
+        "max": null
+       },
+       "requireAttunement": false,
+       "requireIdentification": false,
+       "requireMagic": true,
+       "identifier": ""
+      },
+      "profiles": [
+       {
+        "cr": "@details.cr",
+        "name": "",
+        "_id": "hAZbWYsA1wVyGXVn",
+        "uuid": null,
+        "sizes": [],
+        "types": [
+         "beast",
+         "humanoid"
+        ],
+        "movement": [],
+        "level": {
+         "min": null,
+         "max": null
+        }
+       }
+      ],
+      "settings": {
+       "effects": [
+        "all"
+       ],
+       "keep": [
+        "mental",
+        "skills",
+        "languages",
+        "items",
+        "spells",
+        "bio"
+       ],
+       "preset": "polymorph",
+       "merge": [],
+       "other": [],
+       "spellLists": [],
+       "transformTokens": true,
+       "minimumAC": "",
+       "tempFormula": ""
+      },
+      "transform": {
+       "customize": true,
+       "mode": "cr",
+       "preset": "polymorph"
+      }
+     }
+    },
+    "enchant": {},
+    "prerequisites": {
+     "level": null
+    },
+    "identifier": "change-shape"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 900000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": "Compendium.dnd5e.monsterfeatures.JsAys4RSGi4lN5Jy",
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781619698463,
+    "modifiedTime": 1781630623442,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.ZblZgkUF9FZ3Li1E"
+  },
+  {
+   "_id": "8SCCdhz6bgjRRxn8",
+   "name": "Lair Actions",
+   "type": "feat",
+   "img": "icons/creatures/amphibians/treefrog-underneath-teal.webp",
+   "system": {
+    "description": {
+     "value": "<p>On initiative count 20 (losing initiative ties), the [[lookup @name lowercase]]{monster} takes a lair action to cause one of the following effects; it can't use the same effect two rounds in a row:</p><ul><li>Wind blasts a 60-foot line; each creature there must succeed on a DC 15 Strength saving throw or be knocked &Reference[prone].</li><li>Lightning strikes a creature within 120 feet: DC 15 Dexterity saving throw or take 14 (4d6) lightning damage.</li><li>Driving rain fills the lair; ranged attacks have disadvantage until initiative count 20 on the next round.</li></ul>",
+     "chat": ""
+    },
+    "source": {
+     "custom": "Legacy Dragons",
+     "book": "",
+     "page": "",
+     "license": "",
+     "rules": "2014",
+     "revision": 1
+    },
+    "uses": {
+     "max": "",
+     "recovery": [],
+     "spent": 0
+    },
+    "type": {
+     "value": "monster",
+     "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+     "level": null,
+     "items": [],
+     "repeatable": false
+    },
+    "identifier": "lair-actions",
+    "advancement": {},
+    "crewed": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 25000,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "14.361",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.0",
+    "createdTime": 1781605846981,
+    "modifiedTime": 1781605859006,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+   },
+   "_key": "!actors.items!D1SiCfe5XwMIH2Vf.8SCCdhz6bgjRRxn8"
+  }
+ ],
+ "effects": [],
+ "folder": "chbrf1XwUJvrTyjM",
+ "sort": 300,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {
+  "legacy-dragons": {
+   "dragon": "tun-mi-lung",
+   "age": "ancient"
+  }
+ },
+ "_stats": {
+  "duplicateSource": null,
+  "coreVersion": "14.361",
+  "systemId": "dnd5e",
+  "systemVersion": "4.4.0",
+  "createdTime": 1726171232180,
+  "modifiedTime": 1745108297853,
+  "lastModifiedBy": "dnd5ebuilder0000",
+  "exportSource": null
+ },
+ "_key": "!actors!D1SiCfe5XwMIH2Vf"
+}
