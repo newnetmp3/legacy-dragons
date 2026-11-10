@@ -130,3 +130,56 @@ Releases are published by `.github/workflows/release.yml` when the version in
 - Legacy Dragons is unofficial Fan Content permitted under the Fan Content Policy.
   Not approved/endorsed by Wizards. Portions of the materials used are property
   of Wizards of the Coast. ©Wizards of the Coast LLC.
+
+## Replacing portraits and map tokens
+
+There are 36 species and four age variants per species. All four ages of a
+species share one illustrated portrait and one transparent map token. The
+generated species-specific art briefs are in `tools/artwork_prompts.json`.
+The module's original token artwork remains in place until replacement media
+is installed.
+
+Prepare these two folders:
+
+```text
+artwork/
+  portraits/
+    adamantine.png
+    battle.png
+    ... (all 36 keys, JPEG and WebP also accepted)
+  tokens/
+    adamantine.png
+    battle.png
+    ... (transparent RGBA token art, optional with --remove-bg)
+```
+
+Artwork guidance: use a detailed vertical full-body illustration for each
+portrait. Keep each dragon's silhouette, color and environment faithful to its
+brief. For map tokens, use a transparent cutout from that portrait (or a
+matching top-down illustration). Never flatten the token onto black/white.
+
+```bash
+python -m pip install pillow
+# Optional automatic cutouts:
+python -m pip install "rembg[cpu]"
+
+python tools/install_art.py --input artwork --remove-bg --dry-run
+python tools/install_art.py --input artwork --remove-bg --pack
+```
+
+If pre-cut transparent tokens are provided under `artwork/tokens/`, omit
+`--remove-bg`. The installer validates every portrait and token before
+overwriting assets, exports optimized WebP files into `portraits/` and
+`tokens/`, and updates the 144 Foundry actor JSON sources with distinct
+character-portrait and prototype-token paths. `--pack` recompiles the
+shipped LevelDB compendium (first run `cd tools && npm install`).
+
+When rebuilding all actors from the SRD chassis with `tools/build.py`,
+portrait paths are used when the corresponding `portraits/<key>.webp` exists;
+otherwise the original token is used as a safe fallback. The release zip
+includes portraits automatically when present.
+
+**Before publishing:** verify that all 72 images are present, tokens have
+transparent backgrounds, no Foundry actor paths are broken, and the compendium
+has been rebuilt. Bump the module version and matching download URL only
+after all 36 pairs are complete and validated.
