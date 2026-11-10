@@ -1,0 +1,32 @@
+name: Artwork pipeline checks
+on:
+  pull_request:
+    paths:
+      - 'tools/artwork_prompts.json'
+      - 'tools/install_art.py'
+      - 'tools/build.py'
+      - '.github/workflows/artwork-check.yml'
+  push:
+    branches:
+      - 'artwork/**'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate scripts and species artwork briefs
+        run: |
+          python3 -m py_compile tools/install_art.py tools/build.py
+          python3 - <<'PY'
+          import json, pathlib
+          data = json.loads(pathlib.Path('tools/artwork_prompts.json').read_text())
+          keys = [item['key'] for item in data]
+          assert len(keys) == len(set(keys)) == 36
+          assert all(item.get('prompt') and item.get('name') and item.get('color') for item in data)
+          for key in keys:
+              for age in ('wyrmling', 'young', 'adult', 'ancient'):
+                  assert pathlib.Path(f'src/legacy-dragons/{key}-{age}.json').is_file(), (key, age)
+          print('36 briefs and 144 actors validated')
+          PY

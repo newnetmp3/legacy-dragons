@@ -21,7 +21,9 @@ jobs:
         run: |
           VERSION="$(python3 -c "import json; print(json.load(open('module.json'))['version'])")"
           grep -q "releases/download/v$VERSION/legacy-dragons.zip" module.json || { echo "module.json download URL doesn't match version $VERSION"; exit 1; }
-          zip -r legacy-dragons.zip module.json README.md LICENSE packs tokens -x 'packs/*/LOCK' 'packs/*/LOG*'
+          FILES=(module.json README.md LICENSE packs tokens)
+          if [[ -d portraits ]]; then FILES+=(portraits); fi
+          zip -r legacy-dragons.zip "${FILES[@]}" -x 'packs/*/LOCK' 'packs/*/LOG*'
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
       - name: Publish release
         env:
