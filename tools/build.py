@@ -309,13 +309,15 @@ def build_actor(ch: Chassis, d: dict, age: str, folder_id: str, sort: int) -> di
     if "source" in s:
         s["source"] = {"custom": "Legacy Dragons", "book": "", "page": "", "license": "", "rules": "2014", "revision": 1}
 
-    # Identity, art, folder.
-    img = f"modules/{MODULE}/tokens/{d['key']}.webp"
+    # Identity, art, folder. Portraits and map tokens are independent assets.
+    token_img = f"modules/{MODULE}/tokens/{d['key']}.webp"
+    portrait_file = Path(__file__).resolve().parent.parent / "portraits" / f"{d['key']}.webp"
+    portrait_img = f"modules/{MODULE}/portraits/{d['key']}.webp" if portrait_file.is_file() else token_img
     a["name"] = name
-    a["img"] = img
+    a["img"] = portrait_img
     tok = a["prototypeToken"]
     tok["name"] = name
-    tok["texture"]["src"] = img
+    tok["texture"]["src"] = token_img
     size = TOKEN_SIZE.get(tr["size"], 1)
     tok["width"] = tok["height"] = size
     a["folder"] = folder_id
